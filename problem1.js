@@ -1,4 +1,4 @@
-const text = 'hello'
+const text ='hello'
 
 const reverseText = text.split('').reverse('').join('')
 
