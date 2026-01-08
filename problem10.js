@@ -3,15 +3,16 @@ function pingPong(){
         x<=20;
         x++
     ){
-        if(x % 3 ===0){
+        if (x % 3 ===0 && x % 5 === 0){
+            console.log('PingPong')
+        }
+       else if(x % 3 ===0){
             console.log('Ping')
         }
         else if(x % 5 ===0){
             console.log('Pong')
         }
-        else if (x % 3 && x % 5 === 0){
-            console.log('PingPong')
-        }
+        
         else{
             console.log(x)
         }
